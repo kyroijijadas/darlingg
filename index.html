@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darling</title>
+    <style>
+        body {
+            background-color: #c9ad93;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 100px;
+            flex-wrap: wrap;
+           
+        }
+
+        h1 {
+            font-size: 600px;
+            font-family:  serif;
+            color: white;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(7, 50px);
+            /* 7 columns */
+            grid-template-rows: repeat(8, 50px);
+            /* 5 rows */
+            grid-template-areas:
+                ".  box1  box24   .   box25  box2  ."
+                "box3 box4 box5 box27 box6 box7 box8"
+                "box9 box10 box11 box12 box13 box14 box15"
+                ".  box16 box17 box18 box19 box20  ."
+                ".   .   box21 box22 box23  .   ."
+                ".   .    .  box26  .   .   .   ";
+            gap: 5px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .box {
+            background-image: url("https://i.postimg.cc/pdwT740T/530410516-24296046820031047-6595218446613317367-n.jpg");
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            border: 5px solid #f0e6d2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>I</h1>
+
+    <div class="container">
+        <div class="box" style="grid-area: box1;"></div>
+        <div class="box" style="grid-area: box2;"></div>
+        <div class="box" style="grid-area: box3;"></div>
+        <div class="box" style="grid-area: box4;"></div>
+        <div class="box" style="grid-area: box5;"></div>
+        <div class="box" style="grid-area: box6;"></div>
+        <div class="box" style="grid-area: box7;"></div>
+        <div class="box" style="grid-area: box8;"></div>
+        <div class="box" style="grid-area: box9;"></div>
+        <div class="box" style="grid-area: box10;"></div>
+        <div class="box" style="grid-area: box11;"></div>
+        <div class="box" style="grid-area: box12;"></div>
+        <div class="box" style="grid-area: box13;"></div>
+        <div class="box" style="grid-area: box14;"></div>
+        <div class="box" style="grid-area: box15;"></div>
+        <div class="box" style="grid-area: box16;"></div>
+        <div class="box" style="grid-area: box17;"></div>
+        <div class="box" style="grid-area: box18;"></div>
+        <div class="box" style="grid-area: box19;"></div>
+        <div class="box" style="grid-area: box20;"></div>
+        <div class="box" style="grid-area: box21;"></div>
+        <div class="box" style="grid-area: box22;"></div>
+        <div class="box" style="grid-area: box23;"></div>
+        <div class="box" style="grid-area: box24;"></div>
+        <div class="box" style="grid-area: box25;"></div>
+        <div class="box" style="grid-area: box26;"></div>
+        <div class="box" style="grid-area: box27;"></div>
+    </div>
+
+    <h1>U</h1>
+</body>
+
+</html>
